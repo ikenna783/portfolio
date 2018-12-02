@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "cfe2bf74bf006d6e73c449a8f36ab939",
+    "url": "/Portfolio/static/media/pen-paper.cfe2bf74.png"
+  },
+  {
     "revision": "ba54d26f118928d461c70a7a22ebbbf2",
     "url": "/Portfolio/static/media/Stellar-Logo.ba54d26f.jpg"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/js/runtime~main.3b961160.js"
   },
   {
-    "revision": "8862dc7819a60ae0c00c",
-    "url": "/Portfolio/static/js/main.8862dc78.chunk.js"
+    "revision": "98d422540c0387eb8280",
+    "url": "/Portfolio/static/js/main.98d42254.chunk.js"
   },
   {
-    "revision": "236dc17c36e82d280106",
-    "url": "/Portfolio/static/js/1.236dc17c.chunk.js"
+    "revision": "d2a05d4c58e51a9a539f",
+    "url": "/Portfolio/static/js/1.d2a05d4c.chunk.js"
   },
   {
-    "revision": "8862dc7819a60ae0c00c",
-    "url": "/Portfolio/static/css/main.c1839096.chunk.css"
+    "revision": "98d422540c0387eb8280",
+    "url": "/Portfolio/static/css/main.ffead8d0.chunk.css"
   },
   {
-    "revision": "a9ee02a32e25171a7c12d15388666032",
+    "revision": "a83be2eaa9c4c70e4208a2cd186cc1fd",
     "url": "/Portfolio/index.html"
   }
 ];
