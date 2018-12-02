@@ -9,9 +9,9 @@ class App extends Component {
       <Router>
         <div>
         <Route path="/" component={Navigation} />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Home} />
         <Route path="/skills" component={Skills} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/work" component={Work} />
         <Route path="/contact" component={Contact} />
         </div>
       </Router>
@@ -33,9 +33,9 @@ class Navigation extends Component {
       <div>
         <div className="container text-center navigation hidden-sm hidden-xs">
         <ul className="links">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/portfolio">Home</Link></li>
           <li><Link to="/skills">Skills</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/work">Work</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
@@ -48,9 +48,9 @@ class Navigation extends Component {
       </div>
       <div className="container text-center navigation hidden-md hidden-lg hidden-xl">
         <ul id="mobile-links">
-          <li><Link to="/" onClick={showMenu}>Home</Link></li>
+          <li><Link to="/portfolio" onClick={showMenu}>Home</Link></li>
           <li><Link to="/skills" onClick={showMenu}>Skills</Link></li>
-          <li><Link to="/portfolio" onClick={showMenu}>Portfolio</Link></li>
+          <li><Link to="/work" onClick={showMenu}>Work</Link></li>
           <li><Link to="/contact" onClick={showMenu}>Contact</Link></li>
         </ul>
       </div>
@@ -82,7 +82,7 @@ class Skills extends Component {
     return (
       <div>
       <div className="container intro-heading text-center">
-        <p>As a Front End Developer, I have used the technologies listed below in commercial environments.</p>
+        <p>As a Front End Developer, I have worked on various projects using the technologies listed below.</p>
       </div>
       <div className="container skills-section text-center">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt=""/>
@@ -97,7 +97,7 @@ class Skills extends Component {
   }
 };
 
-class Portfolio extends Component {
+class Work extends Component {
   render() {
     return (
       <div>
@@ -105,6 +105,9 @@ class Portfolio extends Component {
           <p>Here are some examples of my work.</p>
         </div>
         <div className="container projects text-center">
+          <div className="a col-lg-3 col-md-6">
+            <a href="https://ikenna783.github.io/WordCount/" target="blank"><img src={require('./img/pen-paper.png')} alt="" /></a><p>Word Counter</p>
+          </div>
           <div className="a col-lg-3 col-md-6">
             <a href="https://ikenna783.github.io/Calculator/" target="blank"><img src={require('./img/Calculator.jpg')} alt="" /></a><p>JavaScript Calculator</p>
           </div>
@@ -121,7 +124,7 @@ class Portfolio extends Component {
             <a href="http://www.ikstellar.com" target="blank"><img src={require('./img/Stellar-Logo.jpg')} alt="" /></a><p>Stellar Blog</p>
           </div>
           {/*<div className="a col-lg-3 col-md-6">
-            <img src={require('./img/Luna.jpg')} alt="" /><p>Luna</p>
+            <img src={require('')} alt="" /><p>Astra</p>
           </div>*/}
         </div>
       </div>
