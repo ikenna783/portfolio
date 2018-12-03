@@ -109,7 +109,7 @@ class Work extends Component {
             <a href="https://ikenna783.github.io/WordCount/" target="blank"><img src={require('./img/pen-paper.png')} alt="" /></a><p>Word Counter</p>
           </div>
           <div className="a col-lg-3 col-md-6">
-            <a href="https://ikenna783.github.io/Calculator/" target="blank"><img src={require('./img/Calculator.jpg')} alt="" /></a><p>JavaScript Calculator</p>
+            <a href="https://ikenna783.github.io/Calculator/" target="blank"><img src={require('./img/Calculator.jpg')} alt="" /></a><p>Calculator</p>
           </div>
           <div className="a col-lg-3 col-md-6">
             <a href="https://ikenna783.github.io/Phonepage/" target="blank"><img src={require('./img/Gold-iPhone.png')} alt="" /></a><p>Phone Page</p>
