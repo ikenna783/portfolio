@@ -67,7 +67,7 @@ class Home extends Component {
           <p>Ikenna Obichukwu</p>
         </div>
         <div className="container text-center">
-          <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=ICc5knQ0oZBCaVJt1Y10NeA7zGDt8AO6kuKx2rA4PdA" alt="" className="profile-img"/>
+          <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=K6iu7cAHmHCDwMOQBsh8YvP1z7s3ErCJUfS78y2BfP0" alt="" className="profile-img"/>
         </div>
         <div className="container intro-heading text-center">
           <p>Hi, {"I'm"} Ikenna Obichukwu and I am a Front End Developer based in London.</p>
@@ -121,7 +121,7 @@ class Work extends Component {
             <a href="https://www.investcloud.com/Membership/Apps/v4IcHomePage_WF_App.aspx?ReturnURL=%2f#!/w/v4ichomepagewfapp?s=v4homeholderapp" target="blank"><img src={require('./img/InvestCloud.jpg')} alt=""/></a><p>Portals</p>
           </div>
           <div className="a col-lg-3 col-md-6">
-            <a href="http://www.ikstellar.com" target="blank"><img src={require('./img/Stellar-Logo.jpg')} alt="" /></a><p>Stellar Blog</p>
+            <a href="http://www.ikstellar.com" target="blank"><img src={require('./img/Stellar-Logo.jpg')} alt="" /></a><p>Blog</p>
           </div>
           {/*<div className="a col-lg-3 col-md-6">
             <img src={require('')} alt="" /><p>Astra</p>
@@ -137,7 +137,7 @@ class Contact extends Component {
     return (
       <div>
         <div className="container text-center">
-          <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=ICc5knQ0oZBCaVJt1Y10NeA7zGDt8AO6kuKx2rA4PdA" alt="" className="profile-img"/>
+          <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=K6iu7cAHmHCDwMOQBsh8YvP1z7s3ErCJUfS78y2BfP0" alt="" className="profile-img"/>
         </div>
         <div className="container contact-details">
           <p><i>Mobile</i>: {"07861073043"}</p>
