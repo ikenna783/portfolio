@@ -1,17 +1,15 @@
 {
   "main.css": "/Portfolio/static/css/main.5ef782c3.chunk.css",
-  "main.js": "/Portfolio/static/js/main.caeb8c7b.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.caeb8c7b.chunk.js.map",
-  "static/js/1.d2a05d4c.chunk.js": "/Portfolio/static/js/1.d2a05d4c.chunk.js",
-  "static/js/1.d2a05d4c.chunk.js.map": "/Portfolio/static/js/1.d2a05d4c.chunk.js.map",
+  "main.js": "/Portfolio/static/js/main.29b51dfd.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.29b51dfd.chunk.js.map",
+  "static/js/1.4ac81dad.chunk.js": "/Portfolio/static/js/1.4ac81dad.chunk.js",
+  "static/js/1.4ac81dad.chunk.js.map": "/Portfolio/static/js/1.4ac81dad.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
   "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3b961160.js.map",
+  "static/css/main.5ef782c3.chunk.css.map": "/Portfolio/static/css/main.5ef782c3.chunk.css.map",
   "static/media/pen-paper.png": "/Portfolio/static/media/pen-paper.cfe2bf74.png",
   "static/media/Gold-iPhone.png": "/Portfolio/static/media/Gold-iPhone.154bb208.png",
-  "static/media/Stellar-Logo.jpg": "/Portfolio/static/media/Stellar-Logo.ba54d26f.jpg",
-  "static/media/Calculator.jpg": "/Portfolio/static/media/Calculator.d7373bde.jpg",
-  "static/css/main.5ef782c3.chunk.css.map": "/Portfolio/static/css/main.5ef782c3.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.1d800dbe6fca2536dc2c214005cb3f8a.js": "/Portfolio/precache-manifest.1d800dbe6fca2536dc2c214005cb3f8a.js",
+  "precache-manifest.9b23c431e9201bb5494e162b4d534af6.js": "/Portfolio/precache-manifest.9b23c431e9201bb5494e162b4d534af6.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
