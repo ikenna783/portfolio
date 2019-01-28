@@ -64,13 +64,13 @@ class Home extends Component {
     return (
       <div>
         <div className="container name text-center">
-          <p>Ikenna Obichukwu</p>
+          <h1>Ikenna Obichukwu</h1>
         </div>
         <div className="container text-center">
           <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=K6iu7cAHmHCDwMOQBsh8YvP1z7s3ErCJUfS78y2BfP0" alt="" className="profile-img"/>
         </div>
         <div className="container intro-heading text-center">
-          <p>Hi, {"I'm"} Ikenna Obichukwu and I am a Front End Developer based in London.</p>
+          <p>Hi, my name is Ikenna and {"I'm"} Front End Developer based in London.</p>
         </div>
       </div>
     )
@@ -90,7 +90,7 @@ class Skills extends Component {
         <img src="http://pluspng.com/img-png/javascript-vector-png-java-script-js-logo-format-ai-213.png" alt="" id="js-logo"/>
         <img src="https://i1.wp.com/jfdi.info/wp-content/uploads/bootstrap.png?ssl=1" alt="" id="bootstrap-logo"/>
           <img src="https://www.essitco.com/wp-content/uploads/2017/05/react.png" alt=""/>
-        <img src="https://cdn-images-1.medium.com/max/1200/1*dDNpLKu_oTLzStsDTnkJ-g.png" alt="" id="github-logo"/>
+        <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="" id="git-logo"/>
       </div>
       </div>
     )
@@ -106,10 +106,13 @@ class Work extends Component {
         </div>
         <div className="container projects text-center">
           <div className="a col-lg-3 col-md-6">
-            <a href="https://ikenna783.github.io/WordCount/" target="blank"><img src={require('./img/pen-paper.png')} alt="" /></a><p>Word Counter</p>
+            <a href="https://ikenna783.github.io/WordCount/" target="blank"><img src={require('./img/Writing.jpg')} alt="" /></a><p>Word Counter</p>
           </div>
-          <div className="a col-lg-3 col-md-6">
+          {/*<div className="a col-lg-3 col-md-6">
             <a href="https://ikenna783.github.io/Calculator/" target="blank"><img src={require('./img/Calculator.jpg')} alt="" /></a><p>Calculator</p>
+          </div>*/}
+          <div className="a col-lg-3 col-md-6">
+            <a href="https://ikenna783.github.io/Todolist/" target="blank"><img src={require('./img/pen-paper.png')} alt="" /></a><p>Todo List</p>
           </div>
           <div className="a col-lg-3 col-md-6">
             <a href="https://ikenna783.github.io/Phonepage/" target="blank"><img src={require('./img/Gold-iPhone.png')} alt="" /></a><p>Phone Page</p>
@@ -120,9 +123,9 @@ class Work extends Component {
           <div className="a col-lg-3 col-md-6">
             <a href="https://www.investcloud.com/Membership/Apps/v4IcHomePage_WF_App.aspx?ReturnURL=%2f#!/w/v4ichomepagewfapp?s=v4homeholderapp" target="blank"><img src={require('./img/InvestCloud.jpg')} alt=""/></a><p>Portals</p>
           </div>
-          <div className="a col-lg-3 col-md-6">
+          {/*<div className="a col-lg-3 col-md-6">
             <a href="http://www.ikstellar.com" target="blank"><img src={require('./img/Stellar-Logo.jpg')} alt="" /></a><p>Blog</p>
-          </div>
+          </div>*/}
           {/*<div className="a col-lg-3 col-md-6">
             <img src={require('')} alt="" /><p>Astra</p>
           </div>*/}

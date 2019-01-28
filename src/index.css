@@ -3,35 +3,31 @@
 }
 
 #root p {
-  font-family: arial;
+  font-family: monospace;
+  font-size: 22px;
   color: #000000;
 }
 
+#root p {
+  font-size: 17px;
+}
+
 .navigation {
-  width: 60%;
-  margin-bottom: 25px;
-  padding-bottom: 15px;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 90px;
+  background: #000000;
 }
 
-@media (min-width: 992px) {
-  .navigation {
-    border-bottom: solid #000000 1px;
-  }
-}
-
-.name p {
-  font-size: 40px;
-  margin-top: 20px;
+.name h1 {
+  font-size: 50px;
+  font-family: monospace;
+  color: #000000;
 }
 
 @media (max-width: 563px) {
-  .navigation {
-    border-bottom: none;
-  }
-
-  .name p {
+  .name h1 {
     font-size: 30px;
-    margin-top: 0;
   }
 }
 
@@ -41,61 +37,74 @@
 
 .links li a {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
 }
 
 .links li {
-  font-size: 20px;
-  font-family: arial;
-  margin-left: 35px;
-  margin-right: 35px;
+  font-size: 18px;
+  font-family: monospace;
+  margin-left: 55px;
+  margin-right: 55px;
   list-style-type: none;
   display: inline-block;
+}
+
+.links li a:hover {
+  text-shadow: 0 0 20px #fff;
 }
 
 .hamburger-menu {
   float: left;
 }
 
-@media (max-width: 991px) {
-  .hamburger-menu {
-    width: 100%;
-    background: #D3D3D3;
-    border-bottom: solid #000000 1px;
-  }
-}
-
 #navicon {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
 }
 
 #navicon div {
-  width: 35px;
-  height: 5px;
-  margin: 5px;
-  border-radius: 2px;
-  background-color: #000000;
+  width: 45px;
+  height: 7px;
+  margin: 7px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media (max-width: 450px) {
+  .navigation {
+    height: 60px;
+  }
+  #navicon {
+    margin-top: 17px;
+  }
+  #navicon div {
+    width: 40px;
+    height: 6px;
+    margin: 6px;
+  }
 }
 
 #mobile-links {
-  margin-top: 60px;
   padding: 0;
+  margin-top: -7px;;
   padding-bottom: 30px;
+  margin-bottom: 30px;
   width: 100%;
+  float: left;
   display: none;
-  border: solid #000000 1px;
-  background: #D3D3D3;
+  border: solid #fff 1px;
+  background: #000000;
   border-radius: 10px;
 }
 
 #mobile-links li a {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
 }
 
 #mobile-links li {
   font-size: 20px;
+  font-family: monospace;
   margin-top: 20px;
   list-style-type: none;
   display: block;
@@ -104,7 +113,6 @@
 @media (max-width: 600px) {
     .links li {
       font-size: 30px;
-      font-family: arial;
     }
 }
 
@@ -112,6 +120,7 @@
   height: 150px;
   width: 150px;
   margin-top: 60px;
+  margin-bottom: 60px;
   border-radius: 90px;
   border: solid white 1px;
   border: solid #000000 1px;
@@ -119,13 +128,10 @@
 
 .intro-heading {
   width: 50%;
-  margin-top: 100px;
   margin-bottom: 20px;
-  font-size: 22px;
 }
 
 .contact-details {
-  font-size: 22px;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -146,7 +152,6 @@
   .intro-heading, .contact-details {
     font-size: 18px;
   }
-
   .profile-img {
     margin-top: 30px;
   }
@@ -158,7 +163,6 @@
 }
 
 .projects p {
-  font-size: 18px;
   margin-top: 10px;
   margin-left: 20px;
 }
@@ -182,7 +186,7 @@
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   border: solid #000000 1px;
   box-shadow: inset 0 2px 0px #dcffa6, 2px 5px 15px #303030;
 }
@@ -193,7 +197,6 @@
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
-  border-radius: 20px;
   border: solid #000000 1px;
   box-shadow: inset 0 2px 0px #dcffa6, 2px 5px 15px #303030;
 }
@@ -219,13 +222,14 @@
   width: 270px;
 }
 
-#github-logo {
-  width: 300px;
+#git-logo {
+  height: 150px;
+  width: 200px;
 }
 
 @media (max-width: 480px) {
-  #github-logo {
-    width: 60%;
+  #git-logo {
+    width: 100%;
   }
   #js-logo {
     margin-left: 0;
