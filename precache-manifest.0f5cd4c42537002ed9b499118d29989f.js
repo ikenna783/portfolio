@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/pen-paper.cfe2bf74.png"
   },
   {
+    "revision": "131d113981c41214bf80012294f8d5cc",
+    "url": "/Portfolio/static/media/Writing.131d1139.jpg"
+  },
+  {
     "revision": "154bb208efd58ef216ff98756ca90058",
     "url": "/Portfolio/static/media/Gold-iPhone.154bb208.png"
   },
@@ -12,19 +16,19 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/js/runtime~main.3b961160.js"
   },
   {
-    "revision": "c4550eb9b31b42ce0c7c",
-    "url": "/Portfolio/static/js/main.c4550eb9.chunk.js"
+    "revision": "c5b174f89033f139fa9a",
+    "url": "/Portfolio/static/js/main.c5b174f8.chunk.js"
   },
   {
-    "revision": "4ac81dadb28ff39e6df7",
-    "url": "/Portfolio/static/js/1.4ac81dad.chunk.js"
+    "revision": "236dc17c36e82d280106",
+    "url": "/Portfolio/static/js/1.236dc17c.chunk.js"
   },
   {
-    "revision": "c4550eb9b31b42ce0c7c",
+    "revision": "c5b174f89033f139fa9a",
     "url": "/Portfolio/static/css/main.565b21ac.chunk.css"
   },
   {
-    "revision": "0c896a8e2ee498c83f00f8e1757eb672",
+    "revision": "4a260b13039e82efdc38cf696411e54b",
     "url": "/Portfolio/index.html"
   }
 ];
