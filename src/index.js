@@ -70,7 +70,7 @@ class Home extends Component {
           <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=K6iu7cAHmHCDwMOQBsh8YvP1z7s3ErCJUfS78y2BfP0" alt="" className="profile-img"/>
         </div>
         <div className="container intro-heading text-center">
-          <p>Hi, my name is Ikenna and {"I'm"} Front End Developer based in London.</p>
+          <p>Hi, my name is Ikenna and {"I'm"} a Front End Developer based in London.</p>
         </div>
       </div>
     )
@@ -112,7 +112,7 @@ class Work extends Component {
             <a href="https://ikenna783.github.io/Calculator/" target="blank"><img src={require('./img/Calculator.jpg')} alt="" /></a><p>Calculator</p>
           </div>*/}
           <div className="a col-lg-3 col-md-6">
-            <a href="https://ikenna783.github.io/Todolist/" target="blank"><img src={require('./img/pen-paper.png')} alt="" /></a><p>Todo List</p>
+            <a href="https://ikenna783.github.io/Phonepage/" target="blank"><img src={require('./img/pen-paper.png')} alt="" /></a><p>Todo List</p>
           </div>
           <div className="a col-lg-3 col-md-6">
             <a href="https://ikenna783.github.io/Phonepage/" target="blank"><img src={require('./img/Gold-iPhone.png')} alt="" /></a><p>Phone Page</p>
@@ -120,9 +120,9 @@ class Work extends Component {
           <div className="a col-lg-3 col-md-6">
             <a href="https://portal.teacherhq.co.uk/" target="blank"><img src={require('./img/TeacherHQ.jpg')} alt=""/></a><p>TeacherHQ Website</p>
           </div>
-          <div className="a col-lg-3 col-md-6">
+          {/*<div className="a col-lg-3 col-md-6">
             <a href="https://www.investcloud.com/Membership/Apps/v4IcHomePage_WF_App.aspx?ReturnURL=%2f#!/w/v4ichomepagewfapp?s=v4homeholderapp" target="blank"><img src={require('./img/InvestCloud.jpg')} alt=""/></a><p>Portals</p>
-          </div>
+          </div>*/}
           {/*<div className="a col-lg-3 col-md-6">
             <a href="http://www.ikstellar.com" target="blank"><img src={require('./img/Stellar-Logo.jpg')} alt="" /></a><p>Blog</p>
           </div>*/}
