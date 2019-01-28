@@ -1,7 +1,7 @@
 {
   "main.css": "/Portfolio/static/css/main.565b21ac.chunk.css",
-  "main.js": "/Portfolio/static/js/main.c23bc663.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.c23bc663.chunk.js.map",
+  "main.js": "/Portfolio/static/js/main.0af686c2.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.0af686c2.chunk.js.map",
   "static/js/1.4ac81dad.chunk.js": "/Portfolio/static/js/1.4ac81dad.chunk.js",
   "static/js/1.4ac81dad.chunk.js.map": "/Portfolio/static/js/1.4ac81dad.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
@@ -11,6 +11,6 @@
   "static/media/Gold-iPhone.png": "/Portfolio/static/media/Gold-iPhone.154bb208.png",
   "static/media/pen-paper.png": "/Portfolio/static/media/pen-paper.cfe2bf74.png",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.dddf8c4cd38228ac2a58ac44839b972d.js": "/Portfolio/precache-manifest.dddf8c4cd38228ac2a58ac44839b972d.js",
+  "precache-manifest.d3d4565ce8a05366c4bac0a81e804864.js": "/Portfolio/precache-manifest.d3d4565ce8a05366c4bac0a81e804864.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
