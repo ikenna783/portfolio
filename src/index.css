@@ -3,26 +3,25 @@
 }
 
 #root p {
-  font-family: monospace;
+  font-family: times;
   font-size: 22px;
   color: #000000;
 }
 
-#root p {
-  font-size: 17px;
-}
-
 .navigation {
-  height: 80px;
+  height: 75px;
   width: 100%;
   margin-bottom: 90px;
   background: #000000;
+  box-shadow: 0 6px 12px 0 grey;
 }
 
 .name h1 {
-  font-size: 50px;
-  font-family: monospace;
+  font-size: 60px;
+  font-family: times;
+  letter-spacing: 2px;
   color: #000000;
+  text-shadow: 5px 10px 15px grey;
 }
 
 @media (max-width: 563px) {
@@ -41,10 +40,11 @@
 }
 
 .links li {
-  font-size: 18px;
-  font-family: monospace;
-  margin-left: 55px;
-  margin-right: 55px;
+  font-size: 20px;
+  font-family: times;
+  margin-left: 7%;
+  margin-right: 7%;
+  letter-spacing: 2px;
   list-style-type: none;
   display: inline-block;
 }
@@ -104,7 +104,7 @@
 
 #mobile-links li {
   font-size: 20px;
-  font-family: monospace;
+  font-family: times;
   margin-top: 20px;
   list-style-type: none;
   display: block;
@@ -117,13 +117,11 @@
 }
 
 .profile-img {
-  height: 150px;
-  width: 150px;
+  height: 190px;
   margin-top: 60px;
   margin-bottom: 60px;
-  border-radius: 90px;
-  border: solid white 1px;
-  border: solid #000000 1px;
+  border-radius: 150px;
+  box-shadow: inset 0 2px 0px #dcffa6, 2px 5px 15px #303030;
 }
 
 .intro-heading {
@@ -139,13 +137,18 @@
 
 .contact-details p a {
   color: #000000;
+  background: linear-gradient(#F8F8F8, #C8C8C8);
+  border: dotted grey 1px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-decoration: none;
-  font-size: 30px;
-  transition: 0.7s;
-  }
+  font-size: 25px;
+}
 
-.contact-details p a:hover {
-  font-size: 35px;
+#linkedin-btn {
+  margin-top: 40px;
 }
 
 @media (max-width: 415px) {
@@ -198,7 +201,6 @@
   margin-left: 20px;
   margin-bottom: 10px;
   border: solid #000000 1px;
-  box-shadow: inset 0 2px 0px #dcffa6, 2px 5px 15px #303030;
 }
 
 @media (max-width: 520px) {
@@ -223,14 +225,11 @@
 }
 
 #git-logo {
-  height: 150px;
+  height: 200px;
   width: 200px;
 }
 
 @media (max-width: 480px) {
-  #git-logo {
-    width: 100%;
-  }
   #js-logo {
     margin-left: 0;
   }
