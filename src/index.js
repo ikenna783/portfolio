@@ -9,7 +9,7 @@ class App extends Component {
       <Router>
         <div>
         <Route path="/" component={Navigation} />
-        <Route exact path="/portfolio" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/skills" component={Skills} />
         <Route path="/work" component={Work} />
         <Route path="/contact" component={Contact} />
@@ -33,7 +33,7 @@ class Navigation extends Component {
       <div>
         <div className="container text-center navigation hidden-sm hidden-xs">
         <ul className="links">
-          <li><Link to="/portfolio">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/skills">Skills</Link></li>
           <li><Link to="/work">Work</Link></li>
           <li><Link to="/contact">Contact</Link></li>
@@ -48,7 +48,7 @@ class Navigation extends Component {
       </div>
       <div className="container text-center navigation hidden-md hidden-lg hidden-xl">
         <ul id="mobile-links">
-          <li><Link to="/portfolio" onClick={showMenu}>Home</Link></li>
+          <li><Link to="/" onClick={showMenu}>Home</Link></li>
           <li><Link to="/skills" onClick={showMenu}>Skills</Link></li>
           <li><Link to="/work" onClick={showMenu}>Work</Link></li>
           <li><Link to="/contact" onClick={showMenu}>Contact</Link></li>
