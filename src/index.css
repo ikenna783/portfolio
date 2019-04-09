@@ -4,7 +4,7 @@
 
 #root p {
   font-family: times;
-  font-size: 22px;
+  font-size: 20px;
   color: #000000;
 }
 
@@ -142,6 +142,10 @@
   margin-bottom: 20px;
 }
 
+.portfolio-heading {
+  width: 50%;
+}
+
 .contact-details {
   text-align: center;
   margin-top: 40px;
@@ -186,15 +190,24 @@
   transition: 0.7s;
 }
 
+.portfolio-page {
+  padding-bottom: 300px;
+}
+
 .portfolio-sections {
   text-align: center;
-  margin-bottom: 300px;
+  margin-top: 200px;
+}
+
+.project-desciption {
+  width: 60%;
 }
 
 .screen-shots {
   width: 60%;
   height: 450px;
   transition: 0.7s;
+  margin-bottom: 40px;
 }
 
 .screen-shots:hover {

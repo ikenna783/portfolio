@@ -8,8 +8,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-        <Route path="/" component={Navigation} />
-        <Route exact path="/" component={Home} />
+        <Route path="/portfolio" component={Navigation} />
+        <Route exact path="/portfolio" component={Home} />
         <Route path="/my-portfolio" component={Portfolio} />
         </div>
       </Router>
@@ -31,7 +31,7 @@ class Navigation extends Component {
       <div>
         <div className="container text-center navigation hidden-sm hidden-xs">
         <ul className="links">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/portfolio">Home</Link></li>
           <li><Link to="/my-portfolio">Portfolio</Link></li>
         </ul>
       </div>
@@ -44,7 +44,7 @@ class Navigation extends Component {
       </div>
       <div className="container text-center navigation hidden-md hidden-lg hidden-xl">
         <ul id="mobile-links">
-          <li><Link to="/" onClick={showMenu}>Home</Link></li>
+          <li><Link to="/portfolio" onClick={showMenu}>Home</Link></li>
           <li><Link to="/my-portfolio" onClick={showMenu}>Portfolio</Link></li>
         </ul>
       </div>
@@ -92,24 +92,39 @@ class Home extends Component {
 class Portfolio extends Component {
   render() {
     return (
-      <div>
-        <div className="container intro-heading text-center">
+      <div className="portfolio-page">
+        <div className="container portfolio-heading text-center">
           <p>Here are some examples of my work ranging from personal projects to professional work.</p>
         </div>
         <div className="portfolio-sections">
           <a href="https://ikenna783.github.io/Todolist/" target="blank"><img src={require('./img/TodoList-ScreenShot.png')} alt="" className="screen-shots"/></a>
+          <div className="container project-desciption text-center">
+            <p>This Todolist app is one of my personal projects built using React. It allows you to manually add a list of items, delete each item, delete selected items or delete all.</p>
+          </div>
         </div>
         <div className="portfolio-sections">
           <a href="https://ikenna783.github.io/Phonepage/" target="blank"><img src={require('./img/PhonePage-ScreenShot.png')} alt="" className="screen-shots"/></a>
+          <div className="container project-desciption text-center">
+            <p>Phone selection user interface with option to change iPhone color choice and capacity.</p>
+          </div>
         </div>
         <div className="portfolio-sections">
           <a href="https://portal.teacherhq.co.uk/" target="blank"><img src={require('./img/TeacherHQ-ScreenShot.png')} alt="" className="screen-shots"/></a>
+          <div className="container project-desciption text-center">
+            <p>Here is some work I did on the user interface for the TeacherHQ Company Website.</p>
+          </div>
         </div>
         <div className="portfolio-sections">
           <a href="https://www.investcloud.com" target="blank"><img src={require('./img/InvestCloud-ScreenShot.png')} alt="" className="screen-shots"/></a>
+          <div className="container project-desciption text-center">
+            <p>At InvestCloud, I worked mainly on the internal platforms. My tasks involved styling the user interface, software testing and data visualization using JavaScript & React.js</p>
+          </div>
         </div>
         <div className="portfolio-sections">
           <a href="http://fincode.co.uk/" target="blank"><img src={require('./img/FinCode-ScreenShot.png')} alt="" className="screen-shots"/></a>
+          <div className="container project-desciption text-center">
+            <p>At FinCode, {"I'm"} currently working on the user interfaces for internal platforms. I also work with JavaScript and React.js for data visualization and also for building single page applications for each software product.</p>
+          </div>
         </div>
       </div>
     )
