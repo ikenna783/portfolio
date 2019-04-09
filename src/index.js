@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-        <Route path="/portfolio" component={Navigation} />
+        <Route path="/" component={Navigation} />
         <Route exact path="/portfolio" component={Home} />
         <Route path="/my-portfolio" component={Portfolio} />
         </div>
