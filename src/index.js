@@ -60,7 +60,7 @@ class Home extends Component {
         <div className="container-fluid intro-section">
           <h1>Ikenna Obichukwu</h1>
           <div className="container text-center">
-            <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=wr8w-3dMTR9h1b0Q3rYlgUlxMHskHPTyvFooR29P1-g" alt="" className="profile-img"/>
+            <img src="https://media.licdn.com/dms/image/C4D03AQGcZ380lHHLcg/profile-displayphoto-shrink_200_200/0?e=1561593600&v=beta&t=K5Kkc2MhpzeEmNc9Gj0bHDVj6YA39amWTfsk9pVjSa8" alt="" className="profile-img"/>
           </div>
           <div className="container intro-heading text-center">
             <p>Hello, my name is Ikenna and {"I'm"} a Front End Developer based in London.</p>
