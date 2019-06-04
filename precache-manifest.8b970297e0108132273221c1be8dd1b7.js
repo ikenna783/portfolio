@@ -1,9 +1,5 @@
 self.__precacheManifest = [
   {
-    "revision": "6440ade639e422a92561b68f7616e29e",
-    "url": "/Portfolio/static/media/TodoList-ScreenShot.6440ade6.png"
-  },
-  {
     "revision": "72e86b73718bf93f93d8431ce5f99fd2",
     "url": "/Portfolio/static/media/TeacherHQ-ScreenShot.72e86b73.png"
   },
@@ -24,19 +20,19 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/js/runtime~main.3b961160.js"
   },
   {
-    "revision": "24db01c988a0f2a10757",
-    "url": "/Portfolio/static/js/main.24db01c9.chunk.js"
+    "revision": "139662173dee8f930647",
+    "url": "/Portfolio/static/js/main.13966217.chunk.js"
   },
   {
-    "revision": "c514e246c84f9b30fb17",
-    "url": "/Portfolio/static/js/1.c514e246.chunk.js"
+    "revision": "a5e4c43adc17ee4bcbe5",
+    "url": "/Portfolio/static/js/1.a5e4c43a.chunk.js"
   },
   {
-    "revision": "24db01c988a0f2a10757",
-    "url": "/Portfolio/static/css/main.75ea0201.chunk.css"
+    "revision": "139662173dee8f930647",
+    "url": "/Portfolio/static/css/main.5a8986e7.chunk.css"
   },
   {
-    "revision": "0e0ce8f66adbace22b89c49f4c875bfa",
+    "revision": "fc8885fcea329896f5e23fdcc95b09d1",
     "url": "/Portfolio/index.html"
   }
 ];
